@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import InputMask from 'react-input-mask'
+import masterCardLogo from '../css/mastercard.png'
 
 export const Payment=(props)=>{
 
@@ -50,7 +51,7 @@ export const Payment=(props)=>{
 
                     <div className="input_holder">
                         <div className="icons">
-                            I
+                            <img src={masterCardLogo} alt=""  className="input_ms_icon"/>
                         </div>
                     
 

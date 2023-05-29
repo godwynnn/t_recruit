@@ -76,6 +76,12 @@ section:nth-child(3) div:nth-child(2){
     justify-content: center;
     /* border: 1px solid red; */
 }
+.input_ms_icon{
+    width: 60%;
+    border: none;
+    outline: none;
+}
+
 .input_holder .icons:last-child{
     width: 12%;
     height: 10vh;

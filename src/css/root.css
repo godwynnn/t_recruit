@@ -36,6 +36,10 @@ main{
     cursor: pointer;
     /* font-weight: bold; */
 }
+
+
+
+/* DIFFERENT SCREEN SIZES INCLUDING PAYMENT AND RECEIPT COMPONENT */
 @media screen and (max-width: 1300px){
     .root{
         width: 80%;
