@@ -1,0 +1,187 @@
+.receipt{
+    width: 40%;
+    height: 90%;
+    /* border: 1px solid red; */
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0%;
+    padding-left: 4%;
+    padding-right:4%;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 2%;
+}
+.receipt.active{
+    display: flex;
+}
+.receipt_section{
+   
+    height: 20vh;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+}
+.receipt_section:last-child{
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* position: relative; */
+    margin-bottom: 5%;
+
+    background: linear-gradient(to bottom left,#cad2c5,whitesmoke);
+}
+.receipt_section:first-child{
+    position: absolute;
+    z-index: 20;
+    height: 50%;
+    width: 50%;
+    opacity: 90%;
+    top: 12px;
+    background: whitesmoke;
+
+}
+.payment_details:first-child{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* border: 1px solid black; */
+    /* justify-content: flex-end; */
+    width: 100%;
+    padding: 15%;
+    /* border-style:dashed; */
+    /* border: 1px solid red; */
+    /* height: 5vh; */
+}
+.payment_details:first-child::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    
+    bottom: 0px;
+    right: 0px;
+    border-top-left-radius: 15px;
+    background-color: white;
+   
+   
+}
+.payment_details:first-child::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    
+    bottom: 0px;
+    left: 0px;
+    border-top-right-radius: 15px;
+    background-color: white;
+
+   
+}
+.payment_details:first-child p{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    /* width: 180px; */
+    margin-top: 2.5%;
+    font-size: 12px;
+    color: rgb(114, 113, 113);
+    
+}
+.payment_details:first-child p{
+    color: black;
+}
+.payment_details:last-child{
+    width: 100%;
+    /* border: 1px solid red; */
+    color: black;
+    height: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 8%;
+    position: relative;
+    border: none;
+    /* border-top: 1px solid black; */
+
+
+}
+.payment_details:last-child p{
+    font-size: 12px;
+}
+
+.payment_details:last-child::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    
+    top:0px;
+    left: 0px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+   
+}
+.payment_details:last-child::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    
+    top:0px;
+    right: 0px;
+    border-bottom-left-radius: 15px;
+    background-color: white;
+   
+}
+
+.payment_details:last-child p 
+h1 small span{
+    color: rgb(114, 113, 113);
+}
+.section_1{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 10%;
+    justify-content: space-between;
+}
+.section_1:nth-child(2){
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+
+}
+.section_1:nth-child(2) p{
+font-size: 13px;
+}
+
+.section_1:nth-child(2) p:last-child{
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+.section_1:last-child{
+    /* border: 1px solid red; */
+    height: 75px;
+}
+.section_1:last-child p{
+    font-weight: bold;
+}
+
+.section_1:last-child img{
+    width: 25%;
+    height: 60%;
+}

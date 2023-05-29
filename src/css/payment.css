@@ -1,0 +1,141 @@
+
+
+.payment_holder{
+    width: 60%;
+    height: 90vh;
+    /* border :1px solid red; */
+    padding: 3%;
+
+}
+header{
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid red; */
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding: 0%; */
+}
+section,.button{
+    margin-top: 4%;
+}
+section:nth-child(2),
+section:nth-child(3),
+section:nth-child(4){
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+
+
+}
+.info_text p{
+    font-size: 12px;
+}
+.info_text{
+    display: flex;
+    flex-direction: column;
+}
+.info_text:first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info_text:last-child{
+    border: 1px solid red;
+}
+section:nth-child(3) div:nth-child(2){
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input_holder{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid #cad2c5;
+    border-radius: 15px;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+.input_holder .icons:first-child{
+    width: 12%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.input_holder .icons:last-child{
+    width: 12%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    /* border: 1px solid red; */
+}
+section:nth-child(2) .input_holder,
+section:nth-child(4) .input_holder{
+    width: 55%;
+}
+
+.timer{
+    width: 20%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid red; */
+    float: right;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    
+    /* align-content: space-between; */
+}
+.time p{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(18, 14, 41);
+    padding: 10%;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+
+    color: whitesmoke;
+}
+.timer span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 12%;
+    /* text-align: center; */
+}
+.info_text_3 p,
+.info_text_4 p{
+    font-size: 12px;
+}
+.logo{
+    float: left;
+}
+.cardInput{
+    height: 100%;
+    width: 80%;
+    border: none;
+    outline: none;
+    padding-left: 4%;
+    font-size: 18px;
+    background-color: whitesmoke;
+}

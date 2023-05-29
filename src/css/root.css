@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    min-height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../css/bg.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+
+    /* border: 1px solid red; */
+}
+
+.root{
+    background-color: #f8f6f6;
+    width: 70%;
+    height: 110vh;
+    box-shadow: 0px 0px 4px 2px grey;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    position: relative;
+  
+}
+.close{
+    position: absolute;
+    top: 1.5%;
+    right: 4%;
+    font-size: 25px;
+    cursor: pointer;
+    /* font-weight: bold; */
+}
+@media screen and (max-width: 1300px){
+    .root{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1100px){
+    .root{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .root{
+        display: flex;
+        flex-direction: column;
+        height: 180vh;
+    }
+    .payment_holder{
+        width: 90%;
+        /* height: 70vh; */
+    }
+    .receipt{
+        margin-top: 5%;
+        width: 50%;
+    }
+    .receipt_section:last-child{
+        margin-bottom: 0%;
+        height: 80%;
+    }
+    @media screen and (max-width: 950px){
+        .receipt{
+            margin-top: 5%;
+            width: 60%;
+        }
+    }
+    @media screen and (max-width: 650px){
+        .receipt{
+            margin-top: 5%;
+            width: 70%;
+        }
+       
+    }
+    @media screen and (max-width: 550px){
+        .receipt{
+            margin-top: 5%;
+            width: 80%;
+        }
+       
+    }
+    @media screen and (max-width: 450px){
+        .receipt{
+            margin-top: 5%;
+            width: 90%;
+        }
+       
+    }
+
+}
