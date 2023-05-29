@@ -7,6 +7,7 @@ import Stack from '@mui/material/Stack';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import InputMask from 'react-input-mask'
 import masterCardLogo from '../css/mastercard.png'
+import { faPen } from "@fortawesome/free-solid-svg-icons";
 
 export const Payment=(props)=>{
 
@@ -45,7 +46,7 @@ export const Payment=(props)=>{
                         <p><h2>Card Number</h2>Enter the 16-digit card number on the card</p>
 
                         <div className="icons">
-                            G
+                            <h4 style={{color:'#00b4d8', cursor:'pointer'}} ><FontAwesomeIcon icon={faPen}/> Edit</h4>
                         </div>
                     </div>
 
@@ -165,6 +166,7 @@ export const Payment=(props)=>{
                         style={{width:'70%'}}
                         sx={{border: 'none', "& fieldset": { border: 'none' },}}
                         onChange={props.cardInput}
+                        type="password"
                         />
                         <div className="icons">
                             I
