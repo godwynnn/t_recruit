@@ -69,7 +69,7 @@ export const Payment=(props)=>{
 
 
                         <div className="icons">
-                            I
+                        <FontAwesomeIcon icon={faPen}/>
                         </div>
 
                     </div>
@@ -102,7 +102,7 @@ export const Payment=(props)=>{
                         sx={{border: 'none', "& fieldset": { border: 'none' },input: {textAlign: "center"}}}
                         />
                         <div className="icons">
-                            I
+                        <FontAwesomeIcon icon={faPen}/>
                         </div>
                     </div>
                     
@@ -169,7 +169,7 @@ export const Payment=(props)=>{
                         type="password"
                         />
                         <div className="icons">
-                            I
+                        <FontAwesomeIcon icon={faPen}/>
                         </div>
                     </div>
             </section>
